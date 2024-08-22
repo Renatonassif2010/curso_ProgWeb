@@ -1,0 +1,12 @@
+h1{
+    color:blue ;
+}
+p{
+    color: rgb(255, 0, 0);
+}
+p a{
+    color: greenyellow;
+}
+a{
+    color: aqua;
+}

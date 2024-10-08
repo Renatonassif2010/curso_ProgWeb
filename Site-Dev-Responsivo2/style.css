@@ -1,0 +1,228 @@
+/*Todos os elementos*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 1000px;
+    background-color: #f7f7f7;
+}
+
+/*inicio do header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+header .menu-center li {
+    transition: .2s;
+}
+
+header .menu-center li:hover {
+    transform: scale(1.2);
+    color: rgb(10, 10, 248);
+}
+
+header .menu-center li a:hover {
+    color: rgb(10, 10, 248);
+}
+
+.menu-rigth .faça-login {
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+.menu-rigth .faça-login:hover {
+    transform: scale(1.2);
+}
+
+.menu-rigth .crie-sua-conta {
+    background-color: rgb(42, 42, 236);
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 2px 8px 2px 2px;
+}
+
+.menu-rigth .crie-sua-conta a {
+    color: #fff;
+}
+
+.menu-rigth .crie-sua-conta {
+    transition: .2s;
+}
+
+.menu-rigth .crie-sua-conta:hover {
+    transform: scale(1.2);
+}
+
+
+/*fim do header*/
+
+/*inicio do main*/
+main {
+    margin-top: 40px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.introducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.introducao p {
+    font-size: 20px;
+}
+
+main .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+    margin-top: 80px;
+    height: 500px;
+    gap: 20px;
+}
+
+main .flex img {
+    height: 400px;
+}
+
+/*fim do main*/
+
+/*inicio do footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #111827;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2 h2 {
+    color: #dfdfdf;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+footer section ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+footer section ul li {
+    transition: .2s;
+}
+
+footer section ul li:hover {
+    transform: scale(1.2);
+}
+
+/*fim do footer*/
+
+/*responsivo*/
+@media(min-width:280px) and (max-width:1000px) {
+
+    /*começo do header*/
+    header {
+        height: 200px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header h2 {
+        padding-right: 15px;
+    }
+
+    header nav a{
+        font-size: 15px;
+    }
+
+    /*fim do header*/
+
+    /*começo do main*/
+    .section-1 {
+        padding: 10px;
+    }
+
+    .section-1 .titulo,
+    .introducao {
+        width: auto;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 500px;
+    }
+
+    .flex img {
+        width: 400px;
+    }
+
+    /*fim do main*/
+
+    /*inicio do footer*/
+
+    footer section{
+        padding: 10px;
+    }
+
+    footer section ul li a{
+        font-size: 15px;
+    }
+    /*fim do footer*/
+}

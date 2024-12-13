@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.cover img {
+  height: 100%;
+  object-fit: fill;
+  object-position: top right;
+}
+.texto {
+  align-self: center;
+}
+p {
+  font-size: 1rem;
+  max-width: 75ch;
+}

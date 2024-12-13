@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+}
+
+li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.menu-left{
+    display: flex;
+}
+
+a img{
+    width:200px ;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.menu-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.menu-2{
+    background-color: aqua;
+    display:flex;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 0%;
+}

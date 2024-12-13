@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(3, 176, 245, 0.902);
+}
+
+.conteiner{
+    display: flex;
+    background-color: rgba(45, 76, 232, 0.599);
+    height: 700px;
+    gap:30px ;
+    flex-direction: column row;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(47, 88, 224);
+}
+

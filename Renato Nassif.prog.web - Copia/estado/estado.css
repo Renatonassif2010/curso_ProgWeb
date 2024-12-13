@@ -1,0 +1,23 @@
+a {
+  display: inline-block;
+  padding: 80px 60px;
+  background-color: greenyellow;
+  border-radius: 8px;
+  color: red;
+  text-decoration: none;
+  font-size: 10px;
+}
+a:hover {/*mudança ao passar com o mouse em cima*/
+  color: greenyellow;
+  background-color: red;
+}
+
+a:focus{/*mudança ao apertar tab*/
+    font-size: 20px;
+}
+a:active{/*mundança quando ao clicar*/
+    background-color: orange;
+}
+a:visited{/*mudança da cor depois de visitar*/
+    background-color: blue;
+}

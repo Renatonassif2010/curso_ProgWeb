@@ -1,0 +1,16 @@
+.lista1 li:first-child {
+  background-color: red;
+}
+
+.lista1 li:last-child {
+  background-color: aqua;
+}
+.lista2 li:nth-child(odd) {
+  background-color: yellow;
+}
+.lista2 li:nth-child(even) {
+  background-color: greenyellow;
+}
+.lista3:not(:last-child, :first-child) {
+    background-color: greenyellow;
+}

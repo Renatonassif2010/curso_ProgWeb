@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lorem</h1>
+
+    <main>
+      <h2>Main</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+        animi, enim, rem error facilis, quia culpa accusamus laudantium ratione
+        fugit eum veritatis ipsa quidem debitis? Vero dicta est molestiae totam?
+      </p>
+    </main>
+
+    <h2>NAV</h2>
+    <p>
+      A tag NAV é utilizado para ser o elemento pai de links ,pois são itens de
+      navegação o atributo aria-label é utilizado para nomear o tipo de
+      navegação(primária,secundário).
+    </p>
+    <nav aria-label="primaria">
+      <a href="#">Link-1</a>
+      <a href="#">Link-1</a>
+      <a href="#">Link-1</a>
+    </nav>
+
+    <article aria-labelledby="article">
+      <p>
+        são artigos. O elemento HTML article representa uma composição
+        independente em um documento, página, aplicativo ou site, que se destina
+        a ser distribuída ou reutilizável de forma independente (por exemplo, em
+        distribuição). ex: propagandas,divulgações , e etc... O atributo
+        aria-labelledby é usado para indicar aos leitores de tela e ferramentas
+        assistivas qual o rótulo para determinado elemento. Isso é feito usando
+        os IDs dos elementos.
+      </p>
+    </article>
+
+    <h2>section</h2>
+
+    <section aria-labelledby="section">
+      <p id="section">
+        A section é um elemento HTML estrutural usado para agrupar elementos
+        relacionados .
+      </p>
+    </section>
+
+    <h2>aside</h2>
+
+    <aside aria-labelledby="aside">
+      <p id="aside">
+        Tem como conclusão de complementar uma noticia como fazer uma
+        descrição,ou mais vistos.
+      </p>
+    </aside>
+
+    <h2>header</h2>
+
+    <header aria-labelledby="header">
+      <p id="header">
+        Marca um cabeçalho de um site ( banner) e pode ter um nav , main e
+        outras tags semanticas. ex: menu de cima de um site.
+      </p>
+    </header>
+
+    <h2>footer</h2>
+
+    <footer id="footer">
+      Footer vem de foot que significa pé , e footer significa rodapé. ex:
+      cookies,direitos reservados,autorais,copyright...
+    </footer>
+
+    <h2>Listas</h2>
+    <div class="listas">
+      <p>li,ol,ul,dl</p>
+    </div>
+
+    <div class="lista-não-ordenada">
+      <p>Uma lista não ordenada não tem uma ordem numerica</p>
+      <ul>
+        <li>lista</li>
+        <li>lista</li>
+        <li>lista</li>
+      </ul>
+    </div>
+    <div class="lista-ordenada">
+      <p>Uma lista como uma ordem numerica</p>
+      <ol>
+        <li>Lista</li>
+        <li>Lista</li>
+        <li>Lista</li>
+      </ol>
+    </div>
+
+    <div class="lista-de-descricoes">
+      <p>Uma lista de descrições e a lista e criada com elementos o dd e dt</p>
+      <dl>
+        <dt>A tag dt marca o tópico a ser falado</dt>
+
+        <dd>A tag dd marca a descrição a ser falado</dd>
+      </dl>
+    </div>
+
+    <section aria-labelledby="texto">
+      <h1 id="texto">Semanticas para usar no texto</h1>
+      <dl>
+        <dt>blockquote</dt>
+        <dd>Utilizado para fazer citações no HTML. Possui um atributo chamado 'cite' , onde colocamos nele o valor : o local onde retiramos a citação.
+        </dd>
+        <dt>Q</dt>
+        <dd>Marca uma citação inline, ou seja,dentro do texto.</dd>
+        <dt>Cite</dt>
+        <dd>Tag serve para marcar obras (livros,pinturas ,filmes, pinturas, etc...)</dd>
+        <dt>em</dt>
+        <dd>Para dar enfase</dd>
+        <dt>strong</dt>
+        <dd>Utilizado para deixar em negrito.</dd>
+      </dl>
+    </section>
+  </body>
+</html>

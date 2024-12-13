@@ -1,0 +1,15 @@
+h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-image: linear-gradient(45deg ,greenyellow,green);
+}
+li::before{
+  list-style-type: none;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-image: linear-gradient(45deg ,greenyellow,green);
+}

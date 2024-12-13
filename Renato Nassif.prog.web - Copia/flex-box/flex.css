@@ -1,0 +1,13 @@
+h2 {
+  background-color: gainsboro;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-content: start;
+  height: 90vh;
+}

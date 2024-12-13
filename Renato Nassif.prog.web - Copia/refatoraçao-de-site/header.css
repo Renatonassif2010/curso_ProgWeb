@@ -1,0 +1,30 @@
+.header {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.header h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.header nav ul a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  transform: none;
+  border: 2px solid white;
+}
+.header ul li a:hover {
+  border: 2px solid red;
+  transition: none;
+}

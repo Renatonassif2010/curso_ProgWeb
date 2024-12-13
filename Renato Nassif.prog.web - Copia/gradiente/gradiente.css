@@ -1,0 +1,11 @@
+.linear{
+    height: 50vh;
+}
+.linear{
+    background-image: linear-gradient(to top, red,blue,green);
+}
+
+.radial{
+    height: 50vh;
+    background-image: radial-gradient(circle ,red,blue,green);
+}

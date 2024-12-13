@@ -1,0 +1,30 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.item {
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+a {
+  background-color: rgb(166, 103, 224);
+  text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 4px;
+  color: rgb(73, 0, 141);
+}
+
+img{
+  max-width: 100%;
+}

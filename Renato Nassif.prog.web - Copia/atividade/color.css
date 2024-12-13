@@ -1,0 +1,10 @@
+h1{
+    background-color: #0dedfd;
+}
+h2{
+    color: aqua;
+}
+h2 a{
+    background-color: #3b8bf3;
+    color: rgba(0, 250, 3, 0.7);
+}
